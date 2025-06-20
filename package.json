@@ -1,0 +1,30 @@
+{
+  "name": "s3-image-optimizer",
+  "version": "1.0.0",
+  "description": "A script to fetch images from an S3 bucket, optimize them, and upload the optimized versions back to S3.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "aws",
+    "images",
+    "image-optimization",
+    "image-compression",
+    "optimize",
+    "upload",
+    "download",
+    "s3-bucket",
+    "replace-images",
+    "nodejs",
+    "cli",
+    "automation",
+    "jpeg",
+    "png",
+    "webp",
+    "sharp"
+  ],
+  "author": "Bruno Menegidio",
+  "license": "MIT"
+}
