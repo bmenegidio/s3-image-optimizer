@@ -4,7 +4,8 @@
   "description": "A script to fetch images from an S3 bucket, optimize them, and upload the optimized versions back to S3.",
   "main": "src/index.ts",
   "scripts": {
-    "start": "tsx watch src/index.ts"
+    "start": "tsx watch src/index.ts",
+    "lint": "prettier . --write"
   },
   "keywords": [
     "s3",
@@ -28,6 +29,7 @@
   "author": "Bruno Menegidio",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "3.5.3",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
