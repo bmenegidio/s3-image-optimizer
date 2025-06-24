@@ -2,9 +2,10 @@
   "name": "s3-image-optimizer",
   "version": "1.0.0",
   "description": "A script to fetch images from an S3 bucket, optimize them, and upload the optimized versions back to S3.",
-  "main": "src/index.ts",
+  "main": "src/backup-and-optimize.ts",
   "scripts": {
-    "start": "tsx watch --env-file=.env src/index.ts",
+    "backup-and-optimize": "tsx watch --env-file=.env src/backup-and-optimize.ts",
+    "push-and-replace": "tsx watch --env-file=.env src/push-and-replace.ts",
     "lint": "prettier . --write"
   },
   "keywords": [
